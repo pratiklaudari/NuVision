@@ -1,0 +1,57 @@
+.About-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10rem;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(241, 223, 199);
+}
+
+.individual-container{
+    position:absolute;
+    display: grid;
+    height: 400px;
+    width:400px
+}
+.indiv-card{
+    position: relative;
+    height: 400px;
+    width:400px;
+    display: flex;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+    
+}
+
+.indiv-card:hover{
+    transform:rotateY(180deg);
+}
+
+.indiv-f{
+    height: 400px;
+    width:400px
+    
+}
+
+.indiv-b{
+    height: 400px;
+    width:400px
+    
+}
+.Teen-img{
+    height: 400px;
+    width:400px
+}
+
+
+.Parents-and-child-img{
+    height: 400px;
+    width:400px
+}
+
+.About-container Teen-container{
+    text-decoration: none;
+}
+

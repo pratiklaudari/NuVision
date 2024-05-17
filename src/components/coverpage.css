@@ -1,0 +1,27 @@
+.cover-container{
+    background:#1e3f66;
+    
+    height: 80vh;
+}
+
+.cover-header{
+    font-weight:800 ;
+    font-size: 40px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+
+}
+
+.para{
+    position: absolute;
+    font-size: 20px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 4rem;
+}
