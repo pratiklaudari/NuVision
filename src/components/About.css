@@ -31,14 +31,19 @@
 
 .indiv-f{
     height: 400px;
-    width:400px
+    width:400px;
+    backface-visibility: hidden;
+    overflow: hidden;
+
     
 }
 
 .indiv-b{
     height: 400px;
-    width:400px
-    
+    width:400px;
+    backface-visibility: hidden;
+    overflow: hidden;
+
 }
 .Teen-img{
     height: 400px;
