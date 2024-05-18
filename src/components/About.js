@@ -5,16 +5,11 @@ import { Link } from 'react-router-dom'
 const About = () => {
     return(
         <div className= "About-container">
-            <div className="Individual-conatiner">
-                <div className="indiv-card">
-                    <div className="individual-front">
-                        <img src=".\individual1.jpg" alt="Individual" className="indiv-f"/>
-                    </div>
-                    <div className="individual-back">
-                        <img src=".\individual_happy.jpg" alt="Individual" className="indiv-b"/>
-                    </div>
-                </div>
-                
+            <div className="Individual-container">         
+                    <Link to= "/" className="individual">
+                        <img src=".\individual1.jpg" alt="Individual" className="indiv-img"/>
+                    </Link>
+               
                 <h1>Individual</h1>
                 <p>Therapy For 18+</p>
                 <button className="individual-button">Get Started</button>

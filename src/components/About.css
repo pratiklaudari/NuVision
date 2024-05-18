@@ -6,57 +6,76 @@
     text-align: center;
     text-decoration: none;
     list-style: none;
-    background-color: rgb(241, 223, 199);
+    background-color: #1e3f66;
+    color: white;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
 }
 
-.individual-container{
-    position:absolute;
-    display: grid;
+.Individual-container{
+    /* position:absolute;  */
+    /* display: grid; */
+    margin-top: 3rem;
     height: 400px;
-    width:400px
+    width:400px;   
 }
-.indiv-card{
-    position: relative;
+
+/* .Teen-container{
     height: 400px;
-    width:400px;
-    display: flex;
-    transform-style: preserve-3d;
-    transition: all 1s ease;
+    width:400px;  
+} */
+
+.individual{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.teen{
+    /* margin-bottom: 2rem; */
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+.parents-child{
+    margin-left: 2rem;
+    margin-right: 3rem; 
+}
+.indiv-img{
+    height: 200px;
+    width:200px
     
 }
 
-.indiv-card:hover{
-    transform:rotateY(180deg);
-}
-
-.indiv-f{
-    height: 400px;
-    width:400px;
-    backface-visibility: hidden;
-    overflow: hidden;
-
-    
-}
-
-.indiv-b{
-    height: 400px;
-    width:400px;
-    backface-visibility: hidden;
-    overflow: hidden;
-
-}
 .Teen-img{
-    height: 400px;
-    width:400px
+    height: 200px;
+    width:200px
 }
 
 
 .Parents-and-child-img{
-    height: 400px;
-    width:400px
+    height: 200px;
+    width:200px
 }
 
-.About-container Teen-container{
-    text-decoration: none;
+.individual-button{
+    color: #1e3f66;
+    background-color: white;
+    cursor: pointer;
 }
 
+.teen-button{
+    color: #1e3f66;
+    background-color: white;
+    cursor: pointer;
+}
+
+.parents-child-button{
+    color: #1e3f66;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Parents-child-container{
+    margin-right: 15rem;
+}
