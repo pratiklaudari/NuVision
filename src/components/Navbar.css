@@ -1,6 +1,7 @@
 .navbar{
   margin-top: 3%;
   margin-left: 2%;
+  z-index: -1;
   /* background: 		#b9e2f5 */
   }
 

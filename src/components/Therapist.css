@@ -1,0 +1,68 @@
+.therapist-container{
+    background-color: rgb(193, 211, 219);
+    margin-top: 10rem;
+    display: flex;
+    height: 600px;
+}
+
+.container-content{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+.leftcontent1, .leftcontent2{
+    margin-top: 0;
+    margin-left: 5%;
+    margin-bottom: 0.6rem;
+    font-size:35px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    /* font-family: 'times new roman'; */
+    white-space: nowrap;
+    color:rgb(36, 34, 34);
+}
+.leftcontent3{
+    font-family:'Lobster';
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    margin-left: 5%;
+    font-size:35px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    color: #1e3f66;
+}
+
+.textcontent{
+    flex: 1.1;
+  margin-right: 7%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+  /* font-family: roboto; */
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  line-height: 1.9rem;
+  color: #271b12;
+}
+
+.therapist-button{
+    margin-left: 5%;
+    color: #1e3f66;
+    background-color:rgb(204, 211, 214);
+    border-radius: 8px; 
+    padding: 8px;
+    font-size: medium;
+    font-weight: 600;
+    border-color: #1e3f66;
+    cursor: pointer;
+}
+
+.therapist-image{
+    margin-top: 5rem;
+    margin-right: 2rem;
+}

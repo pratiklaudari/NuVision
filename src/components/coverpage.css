@@ -1,7 +1,13 @@
 .cover-container{
-    background:#1e3f66;
-    
+    /* background:#1e3f66; */
+  
     height: 80vh;
+}
+
+.bgvideo{
+    height: 80vh;
+    width: 80%;
+    
 }
 
 .cover-header{
