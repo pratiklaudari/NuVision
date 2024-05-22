@@ -1,0 +1,130 @@
+.title{
+    color: black;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.workflow1{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.qna-img{
+    height: 300px;
+    width: auto;
+    margin-right: 2rem;
+}
+
+.process1{
+    flex: 1.1;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 800;
+    font-family: Lobster;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 1.9rem;
+    color: #1e3f66;
+}
+.description1{
+    
+    flex: 1.1;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 400;
+    /* font-family: roboto; */
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 1.9rem;
+    color: #271b12;
+}
+
+.workflow2{
+    display: flex;
+    margin-top: 3rem;
+    /* margin-left: 5%; */
+}
+
+.session-img{
+    height: 300px;
+    width: 500px;
+    margin-left: 5%;
+    margin-right: 3rem;
+}
+
+.process2{
+    margin-left: 5rem;
+    flex: 1.1;
+    /* margin-right: 7%;
+    margin-left: 5%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 800;
+    font-family: Lobster;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    line-height: 1.9rem;
+    color: #1e3f66;
+}
+
+.description2{
+    flex: 1.1;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 400;
+    /* font-family: roboto; */
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    line-height: 1.9rem;
+    color: #271b12;
+}
+
+.workflow3{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.connect-img{
+    height: 300px;
+    width: auto;
+    margin-right: 2rem;
+}
+
+.process3{
+    flex: 1.1;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 800;
+    font-family: Lobster;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 1.9rem;
+    color: #1e3f66;
+}
+
+.description3{
+    flex: 1.1;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 400;
+    /* font-family: roboto; */
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 1.9rem;
+    color: #271b12;
+}
