@@ -130,9 +130,11 @@
 .service-content button{
     display: inline-block;
     padding: 8px 16px;
-    background-color:antiquewhite;
+    color: white;
+    background-color:#4f77a8;
     text-decoration: none;
     border-radius: 4px;
+    border: 2px solid #4f77a8;
     margin-top: 16px;
     cursor: pointer;
     font-weight: 500;

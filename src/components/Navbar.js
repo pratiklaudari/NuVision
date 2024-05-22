@@ -25,9 +25,9 @@ function Navbar() {
           <a href='#howitworks'> <li> How It Works</li></a>
           <a href='#pricing'><li>Pricing</li></a>
           <a href='#contactus'><li>Conatct Us</li></a>
-          <a><li>LogIn</li></a>
+          <a href='/register'><li>LogIn</li></a>
 
-          <button className='btn' >Get Started</button>
+          <button className='btn' ><a href='/register'>Get Started</a></button>
 
     
           

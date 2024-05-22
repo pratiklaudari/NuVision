@@ -1,4 +1,3 @@
-
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Coverpage from './components/Coverpage';
@@ -11,24 +10,36 @@ import Comparision from './components/Comparision';
 import Footer from './components/Footer';
 import Aboutus from './components/Aboutus';
 import Register from './components/Register';
+import Login from './components/Login';
 
 function App() {
     return(
         <>
         <Router>
-            {/* <Routes> */}
-                <Navbar/>
-                <Coverpage/> 
-                <Aboutus/>  
-                <Services/>  
-                {/* <About/>  */}
-                <Therapist/>
-                <Comparision/>
-                <Workflow/>
-                <Price/>
-                <Footer/>
-                <Routes path="/register" element={<Register />} />
-            {/* </Routes> */}
+        
+            <Routes>
+               
+                <Route path="/" element={
+                        
+                    <div>
+                            <Navbar/>
+                            <Coverpage/> 
+                            <Aboutus/>  
+                            <Services/>  
+                            {/* <About/>  */}
+                            <Therapist/>
+                            <Comparision/>
+                            <Workflow/>
+                            <Price/>
+                            <Footer/>
+                
+                    </div>
+                } />
+               
+                <Route path="/register" element={<Register />} />
+                <Route path="/login" element={<Login />} />
+
+            </Routes>
             
         </Router>
         </>

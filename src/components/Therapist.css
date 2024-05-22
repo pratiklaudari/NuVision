@@ -58,15 +58,14 @@
 .therapist-button{
     margin-left: 5%;
     color: #1e3f66;
-    background-color:rgb(204, 211, 214);
     background-color: #C0D9E5;
-    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin-top: 2rem;
     border-radius: 8px; 
     padding: 9px;
     font-size: medium;
-    font-weight: 500;
-    border-color: #44679F;
+    font-weight: 550;
+    border: 2px solid #1e3f66;
     cursor: pointer;
 }
 
