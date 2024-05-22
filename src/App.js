@@ -10,21 +10,26 @@ import Price from './components/Price';
 import Comparision from './components/Comparision';
 import Footer from './components/Footer';
 import Aboutus from './components/Aboutus';
+import Register from './components/Register';
 
 function App() {
     return(
         <>
         <Router>
-           <Navbar/>
-           <Coverpage/> 
-           <Aboutus/>  
-           <Services/>  
-           {/* <About/>  */}
-           <Therapist/>
-          <Comparision/>
-           <Workflow/>
-          <Price/>
-          <Footer/>
+            {/* <Routes> */}
+                <Navbar/>
+                <Coverpage/> 
+                <Aboutus/>  
+                <Services/>  
+                {/* <About/>  */}
+                <Therapist/>
+                <Comparision/>
+                <Workflow/>
+                <Price/>
+                <Footer/>
+                <Routes path="/register" element={<Register />} />
+            {/* </Routes> */}
+            
         </Router>
         </>
     );
