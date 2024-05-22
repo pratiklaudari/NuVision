@@ -2,10 +2,15 @@ import React from "react"
 import './About.css'
 import { Link } from 'react-router-dom'
 
+// #E4FCF9
+// #ACE6F6
+// #4B89AC
+// #446491
+
 const About = () => {
     return(
-        <div className= "About-container">
-            <div className="Individual-container">         
+        <div className= "About-container" id="services">
+            <div className="Individual-container" id="INDIVIDUAL">         
                     <Link to= "/" className="individual">
                         <img src=".\individual1.jpg" alt="Individual" className="indiv-img"/>
                     </Link>
@@ -15,7 +20,7 @@ const About = () => {
                 <button className="individual-button">Get Started</button>
             </div>
 
-            <div className="Teen-container">
+            <div className="Teen-container" id="TEENS">
                 <Link to="/" className="teen">
                     <img src=".\teenage.jpg" alt="Teens" className="Teen-img" />
                 </Link>
@@ -25,7 +30,7 @@ const About = () => {
                
             </div>
 
-            <div className="Parents-child-container">
+            <div className="Parents-child-container" id="PARENTSandCHILD">
                 <Link to="/" className="parents-child">
                     <img src=".\parentschild11.jpg" alt="Parents-Child" className="Parents-and-child-img"/>
                 </Link>

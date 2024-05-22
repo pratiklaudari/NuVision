@@ -1,0 +1,50 @@
+.aboutus-section{
+    display: flex;
+    text-align: center;
+    /* height: 100vh; */
+    /* margin-top: 5rem; */
+    padding-top: 5rem;
+    padding-left: 7rem;
+    padding-right: 5rem;
+    /* background-color:#D6E6F2; */
+}
+
+.Aboutus-leftpart{
+    padding-right: 7rem;
+    margin-top: 4rem;
+    white-space: nowrap;
+    letter-spacing: 1.5px;
+}
+
+.Aboutus-leftpart .aboutusleft1{
+    font-weight:800 ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#3366a5 ;
+    font-size: 40px;
+}
+.Aboutus-leftpart .aboutusleft2{
+    color: #3366a5;
+    font-family: lobster;
+    font-weight:800 ;
+    font-size: 45px;
+    margin-top: 1rem;
+}
+
+.Aboutus-rightpart{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:start;
+    line-height: 1.8;
+    background-color:#D6E6F2;
+    /* background-color: #C0D9E5; */
+    padding: 20px;
+    border-radius: 50px;
+    /* line-height: 50px; */
+}
+
+.Aboutus-rightpart p{
+    margin-bottom: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}

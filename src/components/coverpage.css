@@ -1,33 +1,42 @@
 .cover-container{
-    /* background:#1e3f66; */
-  
-    height: 80vh;
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    /* margin-top: 10rem; */
+    background-color: #D6E6F2; 
+    /* position: absolute; */
 }
 
-.bgvideo{
-    height: 80vh;
-    width: 80%;
-    
-}
+/* .bgvideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1;
+    filter: blur(6px); 
+  } */
 
 .cover-header{
     font-weight:800 ;
-    font-size: 40px;
+    font-size: 50px;
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #3366a5;
+   white-space: nowrap;
 
 
 }
 
 .para{
     position: absolute;
-    font-size: 20px;
-    top: 60%;
+    font-size: 25px;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color:#3366a5;
+    font-weight: 700;
+   
     margin-top: 4rem;
 }

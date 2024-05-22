@@ -1,0 +1,86 @@
+.Comparision-section{
+    height: 120vh;
+    width: 100%;
+    padding-top: 2.5rem;
+    background-color:  #D6E6F2;
+    margin-top: 10rem;
+
+}
+
+.comp-title{
+    padding-top: 1rem;
+    text-align: center;
+    color: #1e3f66;
+}
+
+.comparision-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+
+}
+
+.comp-card1{
+    width: 300px;
+    height: 475px;
+    /* margin-right: 20px; */
+    padding: 10px 0;
+    text-align: center;
+    /* background:linear-gradient(135deg, rgb(108, 175, 204) 0%, rgb(150, 159, 177) ); */
+    background:linear-gradient(135deg, rgb(193, 211, 219) 0%, rgb(56, 92, 163) );
+
+    border-radius: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: transform 0.3s;
+}
+
+.comp-card2{
+    width: 150px;
+    height: 475px;
+    /* margin-right: 20px; */
+    padding: 10px 0;
+    text-align: center;
+    /* background:linear-gradient(135deg, rgb(193, 211, 219) 0%, rgb(56, 92, 163) ); */
+    background:linear-gradient(135deg, rgb(102, 193, 233) 0%, rgb(150, 159, 177) );
+
+    border-radius: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: transform 0.3s;
+}
+
+.comp-card3{
+    width: 400px;
+    height: 475px;
+    /* margin-right: 20px; */
+    padding: 10px 0;
+    text-align: center;
+    background:linear-gradient(135deg, rgb(193, 211, 219) 0%, rgb(56, 92, 163) );
+    border-radius: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: transform 0.3s;
+}
+
+.compcard-title{
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #627892;
+}
+
+.compcard-title h2{
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: #1e3f66;
+}
+
+/* .compcard-content ul{
+    padding: 10px 30px;
+    padding-bottom: 20px;
+} */
+
+.compcard-content ul li{
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 2px solid #627892;
+}
+
+

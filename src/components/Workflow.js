@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Workflow = () =>{
     return(
 
-        <div className='working'>
+        <div className='working' id="howitworks">
             <h1 className='title'>How It Works</h1>
 
             <div className='workflow1'>
