@@ -30,7 +30,7 @@ const Footer = () => {
             <ul class="footer-links">
             <li><a href="#navbar">Home</a></li>
             <li><a href="#aboutus">About Us</a></li>
-            <li><a href="#services">Services</a></li>
+            {/* <li><a href="#services">Services</a></li> */}
             <li><a href="#howitworks">How It Works</a></li>
             <li><a href="#pricing">Pricing</a></li>
 

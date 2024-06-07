@@ -7,8 +7,8 @@ const Aboutus = () => {
             <div className="Aboutus-leftpart">
                 <h1 className="aboutusleft1">Our Vision</h1>
                 <h1 className="aboutusleft1">Is</h1>
-                <h1 className="aboutusleft2">Mental Well-Being </h1>
-                <h1 className="aboutusleft2"> For All</h1>
+                <h1 className="aboutusleft2">"Mental Well-Being </h1>
+                <h1 className="aboutusleft2"> For All"</h1>
             </div>
             <div className="Aboutus-rightpart">
                 <p> Welcome to NuVision, a revolutionising access to mental healthcare through convenient and affordable online counselling services.

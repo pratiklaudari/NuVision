@@ -23,7 +23,7 @@ const Login = () => {
         </div>
          
         <div className='login-submit-container'>
-            <button className='login-submit'><a href='/'>Submit</a></button>
+            <button className='login-submit'><a href='/dashboard'>Submit</a></button>
 
         </div>
         <div className='new-user'>New user? <a href='/register'>Register here</a></div>  

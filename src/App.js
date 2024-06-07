@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Aboutus from './components/Aboutus';
 import Register from './components/Register';
 import Login from './components/Login';
+import Dashboard from './Dashboard';
 
 function App() {
     return(
@@ -24,8 +25,9 @@ function App() {
                     <div>
                             <Navbar/>
                             <Coverpage/> 
-                            <Aboutus/>  
                             <Services/>  
+
+                            <Aboutus/>  
                             {/* <About/>  */}
                             <Therapist/>
                             <Comparision/>
@@ -38,6 +40,7 @@ function App() {
                
                 <Route path="/register" element={<Register />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/dashboard" element={<Dashboard/>}/>
 
             </Routes>
             
