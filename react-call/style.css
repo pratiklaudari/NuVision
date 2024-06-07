@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body {
+  font-family: 'Syne Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  color: #2c3e50;
+  margin-top: 6rem;
+  background: rgb(6,237,153);
+  background: linear-gradient(90deg, rgba(6,237,153,1) 0%, rgba(0,181,255,1) 100%);
+}
+
+video {
+  width: 30vw;
+  height: 30vw;
+  margin: 2rem;
+  background: #2c3e50;
+  border-radius: 50%;
+  border: #fff 10px solid;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  width: 8rem;
+  height: 8rem;
+}
+button {
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#callSettings {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap :2rem;
+  background: rgba(255, 255, 255, 0.51);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.4px);
+  -webkit-backdrop-filter: blur(11.4px);
+}
+
+button:hover {
+  scale: 1.2;
+}
+
+#logo-container {
+  background-color: rgba(255, 255, 255, 0.801);
+  border-radius: 50%;
+  height: 8.2rem;
+  width: 8.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes rotation{
+  0%   {rotate: 0deg;}
+  25%  {rotate: 90deg;}
+  50%  {rotate: 180deg;}
+  100% {rotate: 270deg;}
+}
+
+/* The element to apply the animation to */
+#logo-container:hover{
+  animation-name: rotation;
+  animation-duration: 4s;
+}
