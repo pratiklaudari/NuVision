@@ -1,8 +1,17 @@
 import React from 'react'
 import './Dashchat.css'
 import ChatIcon from '@mui/icons-material/Chat';
+import Chatbox from './Chatbox';
+import { useState } from 'react';
 
 const Dashchat = () => {
+
+  const [chatclick, setchatclick] = useState(false);
+
+  const toggleclick = () => {
+    setchatclick(!chatclick);
+  };
+
   return (
     <div className='dashchat-container'>
       <div className='dashright-quote'>
@@ -27,7 +36,7 @@ const Dashchat = () => {
             <img src='\book1.jpg'/>
             <p className='book-description'>
 
-The Meditations of Marcus Aurelius is a collection of personal reflections and Stoic philosophy, emphasizing self-discipline, inner peace, and ethical living amidst life's challenges.
+            The Meditations of Marcus Aurelius is a collection of personal reflections and Stoic philosophy, emphasizing self-discipline, inner peace, and ethical living amidst life's challenges.
             </p>
           </div>
 
@@ -73,8 +82,12 @@ The Meditations of Marcus Aurelius is a collection of personal reflections and S
         <ChatIcon
         htmlColor='white'
         />
-        <button className='dash-chat-btn'>Chat Now</button>
+        
+        <button className='dash-chat-btn' onClick={toggleclick} >Chat Now</button>
+
       </div>
+
+      { chatclick && <Chatbox setchatclick={setchatclick}/>}
     </div>
   )
 }

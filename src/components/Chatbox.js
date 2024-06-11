@@ -3,13 +3,19 @@ import './Chatbox.css'
 import SendIcon from '@mui/icons-material/Send';
 import PersonIcon from '@mui/icons-material/Person';
 import CloseIcon from '@mui/icons-material/Close';
-const Chatbox = () => {
+const Chatbox = ({setchatclick}) => {
+
+  const toggleclick = () =>{
+    setchatclick(false);
+  };
+
   return (
     <div className='dashchatbox-container'>
       <div className='chatbox-header'>
         <h2 className='header'>Chatbot</h2>
         <div>
-        <CloseIcon className='closeicon'/>
+        <button onClick={toggleclick}><CloseIcon className='closeicon' /></button>
+        
         </div>
       </div>
       
