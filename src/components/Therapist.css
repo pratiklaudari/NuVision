@@ -1,5 +1,6 @@
 .therapist-container{
-    background-color: rgb(193, 211, 219);
+    /* background-color: rgb(193, 211, 219); */
+    background-color:  #D6E6F2;
     margin-top: 10rem;
     display: flex;
     height: 600px;
@@ -39,11 +40,15 @@
     flex: 1.1;
   margin-right: 7%;
   margin-left: 5%;
+  margin-top: 2rem;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-weight: 400;
   /* font-family: roboto; */
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
   font-size: 1.2rem;
   letter-spacing: 2px;
   line-height: 1.9rem;
@@ -54,12 +59,20 @@
     margin-left: 5%;
     color: #1e3f66;
     background-color:rgb(204, 211, 214);
+    background-color: #C0D9E5;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    margin-top: 2rem;
     border-radius: 8px; 
-    padding: 8px;
+    padding: 9px;
     font-size: medium;
-    font-weight: 600;
-    border-color: #1e3f66;
+    font-weight: 500;
+    border-color: #44679F;
     cursor: pointer;
+}
+
+.therapist-button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 .therapist-image{

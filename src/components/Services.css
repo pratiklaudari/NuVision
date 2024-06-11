@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.Services-section{
+    height: 100vh;
+    /* background-color: rgb(193, 211, 219); */
+    /* background-color: #C0D9E5; */
+    /* background-color:#D6E6F2; */
+    background-color: #4f77a8;
+}
+.services-card-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    margin-top: 100px;
+    /* background-color: rgb(193, 211, 219); */
+}
+
+.services-card1{
+    width: 300px;
+    /* height: 300px; */
+    /* background-color: #4f77a8; */
+    background-color: #D6E6F2;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.services-card2{
+    width: 300px;
+    /* height: 300px; */
+    /* background-color: #4f77a8; */
+    background-color: #D6E6F2;
+
+    border-radius: 8px;
+    /* overflow: hidden; */
+    justify-content: center;
+    align-items: center; 
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.services-card3{
+    width: 300px;
+    /* height: 300px; */
+    /* background-color: #4f77a8; */
+    background-color: #D6E6F2;
+
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.services-card1:hover{
+    transform: scale(1.1);
+}
+
+.services-card2:hover{
+    transform: scale(1.1);
+}
+
+.services-card3:hover{
+    transform: scale(1.1);
+}
+
+
+.services-card1 img{
+    width: 150px;
+    height: 200px;
+    justify-items: center;
+    /* padding-right: 10rem; */
+    margin-left: 4.5rem;
+    margin-top: 1.5rem;
+    /* background-color: aliceblue; */
+}
+
+.services-card2 img{
+    width: 250px;
+    height: 200px;
+    justify-items: center;
+    /* padding-right: 10rem; */
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    /* background-color: aliceblue; */
+}
+
+.services-card3 img{
+    width: 150px;
+    height: 200px;
+    justify-items: center;
+    /* padding-right: 10rem; */
+    margin-left: 4.5rem;
+    margin-top: 1.5rem;
+    /* background-color: aliceblue; */
+}
+
+/* .services-card1 .service-pictures-adult{
+    width:100px ;
+} */
+
+.service-content{
+    padding: 16px;
+    height: 200px;
+    text-align: center;
+    color: #3B577D;
+}
+
+.service-content h2{
+    font-size: 28px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.service-content p{
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.service-content button{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color:antiquewhite;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.service-content button:hover{
+    /* color: #4f77a8;
+    background-color:rgb(193, 211, 219) ; */
+    transform: scale(1.1);
+}
