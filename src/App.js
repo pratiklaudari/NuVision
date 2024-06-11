@@ -38,11 +38,14 @@ function App() {
                     </div>
                 } />
                
+
                 <Route path="/register" element={<Register />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/dashboard" element={<Dashboard/>}/>
                 <Route path="/chatbox" element={<Chatbox/>}/>
-                
+                <Route path="/" element={<Register />} />
+                <Route path="/" element={<Login />} />
+
 
             </Routes>
             

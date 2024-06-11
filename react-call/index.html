@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuvision Call</title>
+  </head>
+  <body>
+    <div id="logo-container">
+      <img src="images\our logo.png" alt="logo" id="logo">
+    </div>
+    
+    <div class="videos">
+      <span>
+        
+        <video id="webcamVideo" autoplay playsinline></video>
+      </span>
+      <span>
+        <video id="remoteVideo" autoplay playsinline></video>
+      </span>
+
+
+    </div>
+    <div id="callSettings">
+    <button id="webcamButton"><img src="images/camera.png" alt="open webcam"></button>
+    
+    <button id="callButton" disabled><img src="images/outgoing call.png" alt="call"></button>
+
+    
+    <input id="callInput" /> 
+    <button id="answerButton" disabled><img src="images\incommingcall.png" alt="accept invite"></button>
+
+
+    <button id="hangupButton" disabled><img src="images\endcall.png" alt="end call"></button>
+    </div>
+    
+
+    <script type="module" src="/main.js"></script>
+
+  </body>
+</html>
