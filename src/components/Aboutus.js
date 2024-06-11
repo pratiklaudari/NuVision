@@ -11,18 +11,13 @@ const Aboutus = () => {
                 <h1 className="aboutusleft2"> For All"</h1>
             </div>
             <div className="Aboutus-rightpart">
-                <p> Welcome to NuVision, a revolutionising access to mental healthcare through convenient and affordable online counselling services.
-                    Our vision is mental well being for all with our motto “Everyone deserves to be heard, Everyone deserves to heal”, 
-                    especially focusing on people who lack it due to many barriers.
-                </p>
-                {/* <p>
-                    We provide an AI-powered tool that recommends clients with the suitable counsellor by analysing their needs, preferences,
-                    and behavioural data tracked within this platform. Our system groups clients with similar profiles into supportive 
-                    online communities, enabling them to connect with peers. NuVision also offers AR/VR therapy tools, allowing counsellors 
-                    to guide clients through immersive environments for exposure treatment, mindfulness exercises. </p>  */}
-                <p>
-                Our innovative "Pay as you can" model ensures cost is never an obstacle to improving one's mental wellbeing.
-                NuVision is the future of accessible mental healthcare for all.
+                <h3 className="aboutus-line1">
+                    WELCOME TO NUVISION
+                </h3>
+
+                <p className="aboutus-line2">Your Mind’s Journey Starts Here!</p>
+                <p> 
+                We provide convenient and affordable online counselling services enabling our clients to connect to their therapists through their medium of choice(phone, chat or video). Our platform enables individuals to overcome barriers and get the proper mental health care that they so need and rightfully deserve. Further, our innovative <span className="payasyoucan">"Pay as you can"</span> model ensures that cost isn't an obstacle to improve one's mental well-being. NuVision is your great opportunity and trusted ally in hard times.
                 </p>
 
             </div>

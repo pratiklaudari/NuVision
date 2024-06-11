@@ -1,12 +1,25 @@
 .navbar{
-  margin-top: 0%;
+  /* margin-top: 0%;
   margin-left: 0px;
   margin-right: 0px;
   z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background:linear-gradient(135deg, #1e3f66 0%, #99c7ea ); */
+
+  /* background-color: white; */
+  /* background-color:#394551; */
+
+  height: 100px;
+  width: 100%;
+  background:linear-gradient(135deg, #1e3f66 0%, #99c7ea );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 
   }
 
@@ -42,7 +55,8 @@
     font-size: 18px;
     font-weight: 500;
     /* text-decoration: none; */
-    color:#3366a5;
+    /* color:#3366a5; */
+    color: white;
   }
 
   .btn{

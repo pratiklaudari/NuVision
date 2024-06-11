@@ -1,6 +1,6 @@
 .dashchat-container{
     flex: 28%;
-    margin-left: 2rem;
+    margin-left: 1rem;
     /* margin-right: 1rem; */
     height: calc(100vh - 90px);
     overflow-y: scroll;
@@ -10,7 +10,7 @@
 
 .dashright-quote{
     margin-top: 1rem;
-
+    
 }
 
 .dashchat-title{
@@ -24,6 +24,7 @@
     margin-top: 1rem;
     background-color:#D6E6F2 ;
     padding: 8px;
+    margin-right: 1rem;
 }
 
 .dashright-book{
@@ -45,6 +46,32 @@
     /* margin-left: 4.5rem; */
     margin-top: 1.2rem;
     font-size: small;
+}
+
+.book-description{
+    margin-top: 5px;
+    margin-right: 1rem;
+}
+.dashright-movie{
+    margin-top: 2rem;
+}
+
+.movie{
+    margin-top: 1.5rem;
+    background-color:#D6E6F2 ;
+    padding: 8px;
+    margin-right: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.movie-description{
+    margin-top: 5px;
+}
+
+.movie-title{
+    color: #1e3f66;
+    font-size: larger;
+
 }
 
 .auto-chat{

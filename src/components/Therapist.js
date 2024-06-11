@@ -6,19 +6,13 @@ const therapist = () => {
     return(
         <div className="therapist-container">
             <div className="container-content">
-                <p className="leftcontent1">Professional and Credentialled </p>
-                <p className="leftcontent2">therapists </p>
-                <p className="leftcontent3"> who you can trust!</p>
+                <p className="leftcontent1">MEET OUR THERAPISTS </p>
+                {/* <p className="leftcontent2">therapists </p> */}
+                {/* <p className="leftcontent3"> who you can trust!</p> */}
             
                 <div className="therapist-text">
                      <p className="textcontent">
-                        Tap into the world's largest network of credentialled and
-                        experienced therapist who can help you with a range of 
-                        issues including depression, anxiety, relationships, 
-                        trauma, grief and more. With our therapists, you get
-                        the same professionalism and quality you would expect
-                        from an in-office therapist, but with the ability to 
-                        communicate when and how you want.
+                     Our platform provides Nepal’s most experienced and trustworthy therapists, counsellors, psychologists and psychiatrists enabling clients to receive high quality and professional therapy sessions according to their needs, budget and time schedule.
                         </p> 
                     <button className="therapist-button">Get Matched to therapists</button>
                </div>

@@ -25,24 +25,48 @@ const Dashchat = () => {
         <div className='books'>
           <div className='book1'>
             <img src='\book1.jpg'/>
-            <p>
+            <p className='book-description'>
 
-"The Meditations of Marcus Aurelius is a collection of personal reflections and Stoic philosophy, emphasizing self-discipline, inner peace, and ethical living amidst life's challenges."
+The Meditations of Marcus Aurelius is a collection of personal reflections and Stoic philosophy, emphasizing self-discipline, inner peace, and ethical living amidst life's challenges.
             </p>
           </div>
 
           <div className='book1'>
-            <img src='\book1.jpg'/>
-            <p>
+            <img src='\midnight-library.jpg'/>
+            <p className='book-description'>
+            The Midnight Library by Matt Haig is a novel that follows the life of Nora Seed, who finds herself in a library between life and death, with the opportunity to try out alternate versions of her life and find the one where she truly belongs.
+            </p>
+          </div>
 
-"The Meditations of Marcus Aurelius is a collection of personal reflections and Stoic philosophy, emphasizing self-discipline, inner peace, and ethical living amidst life's challenges."
+          <div className='book1'>
+            <img src='\veronica-decides-to-die.jpg'/>
+            <p className='book-description' >
+            Veronika Decides to Die is a thought-provoking novel by Paulo Coelho. It tells the story of Veronika, a young woman who decides to end her life but finds herself in a psychiatric hospital where she learns valuable lessons about the meaning of life.
             </p>
           </div>
 
         </div>
       </div>
 
+      <div className='dashright-movie'>
+        <p className='dashchat-title'>Movies you may watch</p>
+        <div className='movies'>
+          <div className='movie'>
+            <p className='movie-title'>A silent Voice</p>
+            <p className='movie-description'>A Silent Voice is one of the best Japanese animated films of the past decade and an essential watch.The film covers elements of coming of age and psychological drama, dealing with themes of bullying, disability, forgiveness, mental health, suicide, and friendship of opposite sexes. It follows the story of a former bully turned social outcast, who decides to reconnect and befriend the deaf girl he had bullied years prior.</p>
+          </div>
 
+          <div className='movie'>
+            <p className='movie-title'>It's kind of a funny story</p>
+            <p className='movie-description'>This movie addresses "the influence of peer pressure", and how depression recovery can be attributed to being oneself and "acceptance for who he is".</p>
+          </div>
+
+          <div className='movie'>
+            <p className='movie-title'>Stand By Me</p>
+            <p className='movie-description'>Stand by Me accurately depicts the painful process of maturation that has plagued both teens and preteens for ages. Ultimately, the boys' unyielding sense of camaraderie and irrepressible spirit see them through towering adversity.</p>
+          </div>
+        </div>
+      </div>
 
 
       <div className='auto-chat'>

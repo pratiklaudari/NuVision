@@ -18,10 +18,11 @@
 
 .cover-header{
     font-weight:800 ;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
-    top: 65%;
+    top: 55%;
     left: 50%;
+    letter-spacing: 1.5px;
     transform: translate(-50%, -50%);
     color: #3366a5;
    white-space: nowrap;
@@ -29,10 +30,22 @@
 
 }
 
+.cover-header2{
+    font-weight:800 ;
+    font-size: 40px;
+    position: absolute;
+    letter-spacing: 1.5px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #3366a5;
+   white-space: nowrap;
+}
+
 .para{
     position: absolute;
     font-size: 25px;
-    top: 70%;
+    top: 66%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:#3366a5;

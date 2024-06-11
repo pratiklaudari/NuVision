@@ -1,5 +1,8 @@
 .title{
-    color: black;
+    color: #1e3f66;
+    font-family:'Lobster';
+    letter-spacing: 3px;
+    word-spacing: 3px;
     text-align: center;
     margin-top: 5rem;
     padding-top: 5rem;
@@ -24,9 +27,11 @@
     flex-direction: column;
     justify-content: center;
     font-weight: 800;
-    font-family: Lobster;
+    /* font-family: Lobster; */
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
     font-size: 1.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 1.9rem;
     color: #1e3f66;
 }
@@ -68,9 +73,12 @@
     flex-direction: column;
     justify-content: center;
     font-weight: 800;
-    font-family: Lobster;
+    /* font-family: Lobster; */
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
     font-size: 1.5rem;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
     line-height: 1.9rem;
     color: #1e3f66;
 }
@@ -108,9 +116,12 @@
     flex-direction: column;
     justify-content: center;
     font-weight: 800;
-    font-family: Lobster;
+    /* font-family: Lobster; */
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
     font-size: 1.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
     line-height: 1.9rem;
     color: #1e3f66;
 }

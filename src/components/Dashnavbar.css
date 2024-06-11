@@ -1,7 +1,10 @@
 .dashnavbarContainer{
     height: 90px;
     width: 100%;
-    background-color:#1e3f66;
+    /* background-color:#1e3f66; */
+    /* background-color:#394551; */
+    background:linear-gradient(135deg, #1e3f66 0%, #99c7ea );
+
     display: flex;
     align-items: center;
     position: sticky;
