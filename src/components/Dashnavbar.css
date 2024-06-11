@@ -1,0 +1,117 @@
+.dashnavbarContainer{
+    height: 90px;
+    width: 100%;
+    /* background-color:#1e3f66; */
+    /* background-color:#394551; */
+    background:linear-gradient(135deg, #1e3f66 0%, #99c7ea );
+
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+.dashnavbarLeft .dashnav-img{
+    width: auto;
+    height: 90px;
+    margin-left: 1.5rem; 
+    
+}
+
+.dashnavbarCenter{
+    flex: 5;
+    margin-left:12rem ;
+}
+
+.searchbox{
+    width: 70vh;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.searchicon{
+    font-size: 25px !important;
+    margin-left: 5px;
+}
+
+.searchinput {
+    width: 80%;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+}
+
+
+.dashnavbarRight{
+    flex:4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+   
+}
+
+.dashnavbarIcons{
+    display: flex;
+}
+
+.dashnavbariconItem{
+    margin-right: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.dashnavbariconBadge{
+    height: 14px;
+    width: 14px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+
+}
+
+
+
+.dashnavbarRight img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 5rem;
+}
+
+.dashnavbarContainer .dashnav-button{
+    background-color: white;
+    border: 2px solid #1e3f66;
+    color: #1e3f66;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px;
+    height: 40px;
+    width: 110px;
+}
+
+.dashnavbarContainer .dashnav-button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    /* background-color:#D6E6F2; */
+}
+
+
+

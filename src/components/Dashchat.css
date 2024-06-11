@@ -1,0 +1,99 @@
+.dashchat-container{
+    flex: 28%;
+    margin-left: 1rem;
+    /* margin-right: 1rem; */
+    height: calc(100vh - 90px);
+    overflow-y: scroll;
+    
+    border-radius: 10px;
+}
+
+.dashright-quote{
+    margin-top: 1rem;
+    
+}
+
+.dashchat-title{
+    color: #1e3f66;
+    font-family: 'lobster';
+    font-size: larger;
+    text-align: center;
+}
+
+.quotations p{
+    margin-top: 1rem;
+    background-color:#D6E6F2 ;
+    padding: 8px;
+    margin-right: 1rem;
+}
+
+.dashright-book{
+    margin-top: 1.5rem;
+
+}
+
+.books{
+    /* margin-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.book1 img{
+    width: 60%;
+    height: auto;
+    /* margin-left: 4.5rem; */
+    margin-top: 1.2rem;
+    font-size: small;
+}
+
+.book-description{
+    margin-top: 5px;
+    margin-right: 1rem;
+}
+.dashright-movie{
+    margin-top: 2rem;
+}
+
+.movie{
+    margin-top: 1.5rem;
+    background-color:#D6E6F2 ;
+    padding: 8px;
+    margin-right: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.movie-description{
+    margin-top: 5px;
+}
+
+.movie-title{
+    color: #1e3f66;
+    font-size: larger;
+
+}
+
+.auto-chat{
+    width: 100px;
+    position: fixed;
+    margin-right: 0.5rem;
+    bottom: 10px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e3f66;
+    border-radius: 5px;
+}
+
+.dash-chat-btn{
+    border: none;
+    background: #1e3f66;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+   
+}

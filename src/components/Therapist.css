@@ -7,7 +7,7 @@
 }
 
 .container-content{
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-left: 3rem;
     margin-right: 3rem;
 
@@ -17,13 +17,18 @@
     margin-top: 0;
     margin-left: 5%;
     margin-bottom: 0.6rem;
+    font-family:'Lobster';
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    color: #1e3f66;
     font-size:35px;
     font-weight:bold;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     /* font-family: 'times new roman'; */
     white-space: nowrap;
-    color:rgb(36, 34, 34);
+    /* color:rgb(36, 34, 34); */
 }
+
 .leftcontent3{
     font-family:'Lobster';
     margin-top: 0;
@@ -58,15 +63,14 @@
 .therapist-button{
     margin-left: 5%;
     color: #1e3f66;
-    background-color:rgb(204, 211, 214);
     background-color: #C0D9E5;
-    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin-top: 2rem;
     border-radius: 8px; 
     padding: 9px;
     font-size: medium;
-    font-weight: 500;
-    border-color: #44679F;
+    font-weight: 550;
+    border: 2px solid #1e3f66;
     cursor: pointer;
 }
 
